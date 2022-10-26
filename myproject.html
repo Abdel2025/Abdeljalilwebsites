@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MUE Student Form</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js">
+</script>
+
+  </head>
+  <body>
+	<h2>MUE Student Form</h2>
+	
+	<!-- STUDENT INFORMATION -->
+	
+	<section>
+		<form action="#" method="post">
+			<div class="field">
+				<fieldset>
+					<legend class="legend">Student Information</legend>
+					
+					<label for="fullname">Full Name</label>
+					<input type="text" id="fullname" name="fullname">
+					
+					<label for="dateofbirth">Date of Birth</label>
+					<input type="date" id="dateofbirth" name="dateofbirth" placeholder="mm/dd/yyyy">
+					
+					<label for="address1">Address</label>
+					<input type="text" id="address1" name="address1" placeholder="Street Address">
+					
+					<label for="address2">Address</label>
+					<input type="text" id="address2" name="address2" placeholder="Address Line 2">
+					
+					<label for="city">City</label>
+					<input type="text" id="city" name="city">
+					
+					<label for="country">Country</label>
+					<input type="text" id="country" name="country">
+					  
+				</fieldset>
+			</div>
+		</form>
+	</section>
+	
+	
+    <!-- CONTACT INFORMATION -->
+	
+	
+	<section>
+		<form action="#" method="post">
+			<div class="field">
+				<fieldset>
+					<legend class="legend">Contact Information</legend>
+		  
+					<label for="phone">Phone Number</label>
+					<input type="tel" id="phone" name="phone" placeholder="06-12-34-56-78">
+					
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="example@gmail.com">
+					
+				</fieldset>
+			</div>
+		</form>
+	</section>
+	
+	
+    <!-- EDUCATION INFORMATION -->
+	
+	<section>
+		<form action="#" method="post">
+			<div class="field">
+				<fieldset>
+					<legend class="legend">Education Information</legend>
+		  
+					<p>What is the highest level of education you have achieved, as of today?</p>
+					
+					<input type="radio" id="High School degree" name="highestdegree" value="High School degree">
+					<label for="High School degree">High School degree</label>
+					
+					<input type="radio" id="University Degree" name="highestdegree" value="University Degree">
+					<label for="University Degree">University Degree</label>
+					
+					<input type="radio" id="Master's Degree" name="highestdegree" value="Master's Degree">
+					<label for="Master's Degree">Master's Degree</label>
+					
+					<input type="radio" id="Doctorate Degree" name="highestdegree" value="Doctorate Degree">
+					<label for="Doctorate Degree">Doctorate Degree</label>
+					
+					<label for="textarea">Other</label>
+					<textarea id="textarea" name="textarea" cols="30" rows="15"></textarea>
+					
+					<p><strong>IMPORTANT:</strong> You <strong>MUST</strong> have a <u>High School Degree</u> to be able to continue your studies in the U.S.A.</p>
+		
+				</fieldset>
+			</div>
+		</form>
+	</section>
+	
+	<!-- EDUCATION IN THE USA -->
+	
+	<section>
+		<form action="#" method="post">
+			<div class="field">
+				<fieldset>
+					<legend class="legend">Education in The USA</legend>
+					
+					<div class="questions">
+						<p>1. What would like to study in the U.S.A. ?</p>
+						<input type="text" id="major" name="major" placeholder="Ex. Computer Science">
+					</div>
+					
+					<div class="questions">
+						<p>2. List three of your favorite states in USA</p>
+						
+						<label for="state">1.</label>
+						<input type="text" id="state" name="state" placeholder="State">
+						
+						<label for="state">2.</label>
+						<input type="text" id="state" name="state" placeholder="State">
+						
+						<label for="state">3.</label>
+						<input type="text" id="state" name="state" placeholder="State">
+					</div>
+					
+					
+					<div class="checks">
+						<p>3. What is your budget to pursue education in the U.S. (per year)</p>
+						
+						<input type="radio" id="below 20,000$" name="rad">
+						<label for="below 20,000$">Below 20,000$</label>
+						
+						<input type="radio" id="above 20,000$ and below 40,000$" name="rad">
+						<label for="above 20,000$ and below 40,000$">Above 20,000$ and Below 40,000$</label>
+						
+						<input type="radio" id="More than 40,000$" name="rad">
+						<label for="More than 40,000$">More than 40,000$</label>
+					</div>
+					
+					<p><strong>IMPORTANT:</strong> You may qualify for some <strong>GREAT SCHOLARSHIPS</strong> that may cover up to <strong>80%</strong> of your tuition.</p>
+				
+				</fieldset>
+			</div>
+		</form>
+    </section>
+	
+	
+        <!-- MUE SERVICES -->
+	
+	
+	<section>
+		<form action="#" method="post">
+			<div class="field">
+				<fieldset>
+					<legend class="legend">MUE SERVICES</legend>
+						
+						<p>How would you like M.U.E to assist you?</p><br>
+						
+						<div>
+							<input type="checkbox" id="University/College search" name="University/College search">
+							<label for="University/College search">University/College search</label><br>
+							
+							<input type="checkbox" id="Assistance with application process" name="Assistance with application process">
+							<label for="Assistance with application process">Assistance with application process</label><br>
+							
+							<input type="checkbox" id="Assistance with essay writing" name="Assistance with essay writing">
+							<label for="Assistance with essay writing">Assistance with essay writing</label><br>
+							
+							<input type="checkbox" id="Assistance with collecting all necessary documents for application I20 and Visa" name="Assistance with collecting all necessary documents for application I20 and Visa">
+							<label for="Assistance with collecting all necessary documents for application I20 and Visa">Assistance with collecting all necessary documents for application I20 and Visa</label><br>
+							
+							<input type="checkbox" id="Identification of scholarships search and assistance with application" name="Identification of scholarships search and assistance with application">
+							<label for="Identification of scholarships search and assistance with application">Identification of scholarships search and assistance with application</label><br>
+							
+							<input type="checkbox" id="Assistance with Visa interview Q&A practice" name="Assistance with Visa interview Q&A practice">
+							<label for="Assistance with Visa interview Q&A practice">Assistance with Visa interview Q&A practice</label>
+						</div>
+						
+				</fieldset>
+			</div>
+		</form>
+    </section>
+    
+	
+	<!-- STUDENT AGREEMENT -->
+    
+	
+	<section>
+		<form action="#" method="post">	
+			<div class="field">
+				<fieldset>
+		  
+					<legend class="legend">Privacy Agreement</legend>
+					
+					<div class="checks">
+						<input type="checkbox" id="For better assistance, I agree to provide the above information to M.U.E" name="For better assistance, I agree to provide the above information to M.U.E">
+						<label for="For better assistance, I agree to provide the above information to M.U.E">For better assistance, I agree to provide the above information to M.U.E</label>
+					</div>
+					
+					<input type="submit" value="Submit">
+					
+				</fieldset>
+			</div>
+		</form>
+	</section>
